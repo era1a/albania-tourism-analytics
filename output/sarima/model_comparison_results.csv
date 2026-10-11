@@ -1,0 +1,6 @@
+Tourism Type,Prophet MAE,Prophet RMSE,Prophet MAPE,SARIMA MAE,SARIMA RMSE,SARIMA MAPE,Winner,p_mape_raw,s_mape_raw
+Cultural & Heritage,3.98,4.8,30.8%,2.15,2.88,13.6%,SARIMA,30.76,13.64
+Sun & Sea,3.14,4.77,20.7%,4.13,5.81,37.0%,Prophet,20.68,37.03
+Nature & Adventure,5.43,6.46,29.2%,4.24,5.94,23.1%,SARIMA,29.2,23.06
+Rural & Agrotourism,1.02,1.54,3.5%,1.7,1.97,6.1%,Prophet,3.46,6.13
+Urban & Business,4.88,6.35,11.0%,4.72,5.88,10.7%,SARIMA,11.03,10.7
