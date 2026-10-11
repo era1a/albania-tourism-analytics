@@ -2,7 +2,7 @@
 
 > AI-assisted data analytics platform for predictive tourism insights. Bachelor's thesis project.
 
-## Live demo : 
+## Live demo : https://albania-tourism-analytics.streamlit.app/
 
 ## The problem
 
