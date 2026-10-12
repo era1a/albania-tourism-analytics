@@ -132,7 +132,7 @@ with st.sidebar:
     st.markdown("**Data Coverage**")
     st.markdown("📅 Jan 2019 – Dec 2025")
     st.markdown("🌍 Google Trends + INSTAT")
-    st.markdown("✅ Validation: r = 0.953")
+    st.markdown("✅ Validation: r = 0.943")
     st.markdown("📍 64 destinations")
     st.markdown("---")
     st.markdown("**Navigation**")
@@ -185,7 +185,7 @@ kpis = [
     ("12.4M",  "Tourist Arrivals 2025", "#E74C3C"),
     ("+369%",  "Growth Since 2020",     "#27AE60"),
     ("95.5%",  "European Tourists",     "#2980B9"),
-    ("0.953",  "Model Correlation",     "#8E44AD"),
+    ("0.943",  "Trends vs INSTAT (r)",     "#8E44AD"),
     ("64",     "Destinations Tracked",  "#F39C12"),
 ]
 cols = st.columns(5)
@@ -268,7 +268,7 @@ if st.session_state.page == "home":
         ("🤖", "AI Report Generator",     "Generate professional institutional reports automatically","ai"),
         ("💬", "Tourism Chatbot",         "Ask questions about Albania's tourism data in real time", "chatbot"),
         ("📅", "Off-Season Strategy",     "AI campaign recommendations for low-demand months",       "ai"),
-        ("📊", "INSTAT Validation",       "r=0.953 correlation with official arrival statistics", "instat"),
+        ("📊", "INSTAT Validation",       "r=0.943 correlation with official arrival statistics", "instat"),
     ]
 
     row1 = nav_data [:4]
@@ -830,7 +830,7 @@ elif st.session_state.page == "instat":
         corr = merged_monthly["trends_norm"].corr(merged_monthly["arrivals_norm"])
     else:
         merged_monthly = None
-        corr = 0.953
+        corr = 0.943
 
     # ── Metrics ──
     c1, c2, c3, c4 = st.columns(4)

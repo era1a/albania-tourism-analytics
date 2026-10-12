@@ -246,7 +246,7 @@ def build_chatbot_context(analysis_data):
         "Always reference actual numbers. Keep answers to 3-5 sentences unless a detailed report is requested.",
         "",
         "KEY DATA:",
-        "- Google Trends 2019-2025, validated with INSTAT (r=0.953)",
+        "- Google Trends 2019-2025, validated with INSTAT (r=0.943)",
         "- 12.4M arrivals in 2025, +369% since 2020",
         "- 95.5% European tourists, 71.5% Southern European",
         "- All tourism types peak in August",
